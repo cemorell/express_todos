@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My To Do List</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>My To DO List</h1>
+    <ul>
+    <% for (var i =0; i < list.length; i++){ %>
+      <li> <%= list[i].task %> </li>
+    <% } %>
+    </ul>
+  </body>
+</html>
