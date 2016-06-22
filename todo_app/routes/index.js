@@ -16,8 +16,8 @@ router.get('/items', function(req, res, next){
 });
 
 // GET the form to create a new item
-router.get('/items/new', function(req, res, next){
-  res.render('new');
+router.get('/items/', function(req, res, next){
+  res.render('items');
 });
 
 // Create a new to do item

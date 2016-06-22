@@ -11,5 +11,15 @@
       <li> <%= list[i].task %> </li>
     <% } %>
     </ul>
+    <form action="/items" method="post">
+  <div>
+    <label>Task:</label>
+    <input type='text' name='task'>
+  </div>
+
+  <div>
+    <input type='submit' value='Add to the list!'>
+  </div>
+</form>
   </body>
 </html>
